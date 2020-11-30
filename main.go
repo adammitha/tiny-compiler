@@ -13,6 +13,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Println(tokens)
 	ast := Parser(tokens)
 	fmt.Println(ast)
 }
